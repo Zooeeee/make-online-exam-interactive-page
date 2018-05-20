@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>统一建模理论考试</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="main.js"></script>  
+        <script src="correct.js"></script> 
+    </head>
+    <body>
+     <div id = "main">
+        <div id ="information">
+                <h1>统一建模理论考试</h3><br/>
+                <p>考试科目:统一建模</p>
+                <p style="margin-left: 120px">时间：100分钟</p>
+                <p style="margin-left: 180px">得分：100</p><br/>
+                <p>班级:</p>
+                <input style="margin-left: 30px" type="text" name="class" value="1班"/>
+                <p style="margin-left: 65px">学号:</p>
+                <input style="margin-left: 15px" type="text" name="student_id"value="001"/>
+                <p style="margin-left: 118px" >姓名:</p>
+                <input style="margin-left: 15px" type="text" name = "name" value="王小闹"/>
+        </div>
+        <div id = "blank">
+             <h2>一、填空题（每空5分，共20分）</h2>
+             <p id = "p1">1.UML的中文全称是：</p>
+             <input style="margin-top: 22px" type = "text" id = "input4" value="统一建模语言"/>
+             <br/>
+             <p id = "p2">2.对象最突出的特征是：</p>
+             <input id="input5" type ="text" value="封装性"/>
+             <input id="input6" type="text"value="继承性"/>
+             <input id="input7" type="text"value="多态性"/>
+        </div>
+        <div id = "select" >
+            <h2>二、选择题（每题10分，共20分）</h2>
+            <div id="div1">
+               <b>1.UML与软件工程的关系是：</b><br/>
+               <input type = "radio" name = "select_1" value="A"/><p>(A)UML就是软件工程</p><br/>
+               <input type = "radio"name = "select_1" value="B" checked="checked"/><p>(B)UML参与到软件工程中软件开发过程中的几个阶段</p><br/>
+               <input type = "radio"name = "select_1"value="C"/><p>(C)UML与软件工程无关</p><br/>
+               <input type = "radio"name = "select_1"value="D"/><p>(D)UML是软件工程的一部分</p>
+            </div>
+            <div id="div2">
+                <b>2.Java语言支持：</b><br/>
+                <input type = "radio" name = "select_2" value="A" checked="checked"/><p>(A)单继承</p><br/>
+                <input type = "radio"name = "select_2"value="B"/><p>(B)多继承</p><br/>
+                <input type = "radio"name = "select_2"value="C"/><p>(C)单继承和多继承都支持</p><br/>
+                <input type = "radio"name = "select_2"value="D"/><p>(D)单继承和多继承都不支持</p>
+            </div>
+        </div>
+        <div id = "multi_select">
+            <h2>三、多选题（每题10分，共20分）</h2>
+            <div id="div1">
+            <b>1.用力的粒度分为以下哪三种：</b><br/>
+            <input type = "checkbox" name = "multi_select_1" value="A" checked="checked"/><p>(A)概述级</p><br/>
+            <input type = "checkbox"name = "multi_select_1" value="B" checked="checked"/><p>(B)需求级</p><br/>
+            <input type = "checkbox"name = "multi_select_1"  value="C"/><p>(C)用户目标级</p><br/>
+            <input type = "checkbox"name = "multi_select_1" value="D"checked="checked"/><p>(D)子功能级</p>
+            </div>
+            <div id="div2">
+            <b>2.类图由下列哪三部分组成：</b><br/>
+            <input type = "checkbox" name = "multi_select_2" value="A" checked="checked"/><p>(A)名称(Name)</p><br/>
+            <input type = "checkbox"name = "multi_select_2" value="B" checked="checked"/><p>(B)属性(Attribute)</p><br/>
+            <input type = "checkbox"name = "multi_select_2" value="C" checked="checked"/><p>(C)操作(Operation)</p><br/>
+            <input type = "checkbox"name = "multi_select_2" value="D"/><p>(D)方法(Function)</p>
+            </div>
+        </div>
+        <div id = "judge">
+            <h2>四、判断题（每题10分，共20分）</h2>
+            <p>1.用例图只是用于和可与交流和沟通的，用于确定需求。</p>
+            <div id="right_and_error">
+            <div ><input type = "radio" name="judge_1" value="1"/>√</div>
+            <div ><input type = "radio"name="judge_1"checked="checked" value="0"/>x</div>
+            </div>
+            <p>2.在状态图中，终止状态在一个状态图中允许有任意多个。</p>
+            <div id="right_and_error_two">
+            <div ><input type = "radio" name="judge_2"checked="checked" value="1"/>√</div>
+            <div ><input type = "radio"name="judge_2" value="0"/>x</div>
+            </div>
+       </div>
+        <div id = "answer">
+            <h2>五、简答题（每题20分，共20分）</h2>
+            <p>1.简述什么是模型以及模型的表现形式？</p>
+            <textarea id="text" rows="15" cols="80" value="a">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+        </div> 
+        <input id="score" type = "submit" value="计算分数" onclick="score()"/> 
+     </div>  
+    
+    </body>
+</html>

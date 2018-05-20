@@ -1,0 +1,117 @@
+*{margin: 0 ; padding: 0 ;}
+body{
+    background-color: #99ccff;
+}
+h1{
+    margin-left: 20px;
+    font-family: 宋体;
+}
+h2{
+    margin-left: 20px;
+    font-family: 宋体;
+}
+#main{
+    margin: auto;
+    width: 800px;
+    height: 1500px;
+    background-color: #fff;
+}
+
+#main p{
+    float: left;
+}
+#main input{
+    float: left;
+    width: 120px;
+}
+
+#information{
+    width: 798px;
+    height: 128;
+   
+}
+
+#blank{
+    width: 798px;
+    height: 128px;
+  
+}
+#blank  #p1{ margin-left: 30px; margin-top: 20px;}
+#blank  #p2{position: relative; top:30px; right: 282px;}
+#blank input{float: left;width: 120px;}
+#blank #input5{ margin-left: -290px ;margin-top: 30px}
+#blank #input6{ margin-left: -150px ;margin-top: 30px}
+#blank #input7{ margin-left: -10px ;margin-top: 30px}
+
+#select{
+    width: 798px;
+    height: 348px;
+}
+#select #div1{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 798px;
+    height: 150px;
+}
+
+#select #div1 p{
+    margin-left: -50px;
+}
+#select #div1 input[type = radio]{
+    height: 15px;
+    margin-top: 4px;
+}
+#select #div2{
+    margin-top: -10px;
+    margin-left: 50px;
+    width: 798px;
+    height: 150px;
+}
+#select #div2 p{margin-left: -50px;}
+#select #div2 input[type = radio]{
+    height: 15px;
+    margin-top: 4px;
+}
+
+#multi_select{width: 798px; height: 348px;}
+#multi_select #div1{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 798px;
+    height: 150px;
+}
+
+#multi_select #div1 p{
+    margin-left: -50px;
+}
+#multi_select #div1 input[type = checkbox]{
+    height: 15px;
+    margin-top: 4px;
+}
+#multi_select #div2{
+    margin-top: -10px;
+    margin-left: 50px;
+    width: 798px;
+    height: 150px;
+}
+
+#multi_select #div2 p{
+    margin-left: -50px;
+}
+#multi_select #div2 input[type = checkbox]{
+    height: 15px;
+    margin-top: 4px;
+}
+#judge{width: 798px;height: 128px;}
+#judge input{float: left;width:15px;margin-top: 5px;}
+#judge p { margin-left: 50px;margin-top: 20px;}
+#judge #right_and_error{margin-top: 20px; }
+#judge #right_and_error div{float: left;}
+#judge #right_and_error_two{margin-top: 62px; }
+#judge #right_and_error_two div{float: left;}
+
+#answer{width: 798px; height: 248px; }
+#answer p { margin-left: 30px; margin-top: 20px;}
+#answer  textarea{margin-left: 30px;margin-top: 10px;}
+
+#score{margin-left: 25px;margin-top: 80px;}
